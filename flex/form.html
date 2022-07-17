@@ -1,0 +1,80 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/e3e9260ce3.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        .nav-contain a{
+            text-decoration: none;
+            color: rgb(12, 12, 12);
+            margin-left: 5px;
+            font-size: 20px;
+            
+        }
+        .nav-contain{
+            display: flex;
+            justify-content: space-between;
+            border: 1px solid;
+            background-color: #c40909;
+            height: 40px;
+        }
+        span{
+            margin-top: 10px;
+        }
+        .login-form{
+            display: flex;
+            flex-direction: column;
+            width: 30%;
+            
+        } 
+        .login-form input{
+             margin-top: 1em;
+             padding: 7px;
+        }
+        #submit{
+            background-color: brown;
+            color: aliceblue;
+            font-size: 1.3em;
+            border-radius: 5px;
+            
+            
+        }
+        .sec-contain{
+            display: flex;
+            justify-content: center;
+            margin-top: 50px;
+        }
+
+
+    </style>
+</head>
+<body>
+
+      <nav class="nav-contain">
+       <span>
+        <a href="">home</a>
+        <a href="">admin</a>
+        <a href="">about</a>
+       </span>
+       
+       <span>
+        <a href=""><i class="fa-solid fa-user"></i></a>
+        <a href=""><i class="fa-solid fa-right-from-bracket"></i></a>
+       </span> 
+      </nav>
+      <section class="sec-contain" >
+        <form  class="login-form " action="">
+              <h1>User login</h1>
+              <input type="email" placeholder="email">
+              <input type="password" placeholder="password">
+              <input id="submit"type="submit" value="login">
+        </form>
+      </section>
+
+</body>
+</html>

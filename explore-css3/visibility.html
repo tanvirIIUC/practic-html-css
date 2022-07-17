@@ -1,0 +1,63 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/e3e9260ce3.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+    <style>
+        .box{
+            height: 100px;
+            width: 100px;
+            border: 1px solid red;
+           
+            
+        }
+        #box-1{
+            background-color: aqua;
+           
+        }
+        #box-2{
+            background-color: rgb(25, 0, 255);
+            /* display: none; */
+        }
+        #box-3{
+            background-color: rgb(255, 72, 0);
+            visibility: hidden;
+        }
+        #box-4{
+            background-color: rgb(145, 255, 0);
+        }
+        #box-1:hover{
+            /* width: 300px; */
+            /* height: 300px; */
+            /* transform: scale(2); */
+             transform:rotate(-20deg); 
+             transform-origin: top right;
+            transition: width 3s , height 3s, transform 1s ease 0.5s;
+        }
+        .fa-facebook{
+            color: mediumblue;
+        }
+    </style>
+</head>
+<body>
+      <div class="box" id="box-1">
+
+      </div>
+      <div class="box" id="box-2">
+
+      </div>
+      <div class="box" id="box-3">
+
+      </div>
+      <div class="box" id="box-4">
+
+      </div>
+      <br>
+      <br>
+      <div>
+        <samp> facebook  <i class="fa-brands fa-facebook"></i></samp>
+      </div>
+</body>
+</html>
